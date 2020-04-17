@@ -11,6 +11,7 @@ foreach ($ipas as $ipa) {
     if (!is_dir(dirname($filePath))) {
         mkdir(dirname($filePath), 0777, true);
     }
-    copy($path . '/' . $ipa, $filePath);
+//    copy($path . '/' . $ipa, $filePath);
+    print_r($pinyin);
     print_r(PHP_EOL);
 }
