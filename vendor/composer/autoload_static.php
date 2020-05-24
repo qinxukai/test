@@ -23,6 +23,7 @@ class ComposerStaticInitcaf6ec451566745854867b4f594ebfc5
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
+            'GraphQL\\' => 8,
         ),
     );
 
@@ -42,6 +43,10 @@ class ComposerStaticInitcaf6ec451566745854867b4f594ebfc5
         'GuzzleHttp\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
+        ),
+        'GraphQL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webonyx/graphql-php/src',
         ),
     );
 
