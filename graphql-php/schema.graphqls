@@ -1,0 +1,14 @@
+schema {
+  query: Query
+}
+
+type Game{
+  id: String
+  name: String
+}
+
+type Query {
+  echo(message: String): String
+  game(id: String): Game
+}
+
